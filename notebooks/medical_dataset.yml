@@ -1,0 +1,16 @@
+
+train: D:/Tenx/W7/data/train/images  # Update this if you have a separate directory for training
+val: D:/Tenx/W7/data/valid/images    # Update this if you have a separate directory for validation
+
+nc: 9  # Number of classes
+names: [
+  'cosmotic',
+  'food-package', 
+  'supliment', 
+  'formula-milk', 
+  'lotion-moisturizer', 
+  'medicine', 
+  'mini-drop', 
+  'pregnancy', 
+  'other'
+]
